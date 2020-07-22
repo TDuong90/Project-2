@@ -1,0 +1,14 @@
+SQL Notes-
+
+traffic table uses traffic_data_clean_final.csv
+
+weather table uses national-weather-service.csv
+
+sql_inner_join.sql combines the two tables and creates joined_traffic_weather.csv
+
+
+SQLite Notes-
+
+sqlite_traffic_weather.db consists of two tables made from importing traffic_data_clean_final.csv and national-weather-service.csv
+
+sqlite_data.ipynb analyzes the tables

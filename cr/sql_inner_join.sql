@@ -1,0 +1,28 @@
+SELECT 
+	"Date",
+	"Time_of_Day",
+	"Max", 
+	"Min",
+	"Average", 
+	"Precipitation",
+	"Victim_Age",
+	"Victim_Sex",
+	"DR_Number",
+	"Time_Occurred", 
+	"Area_ID",
+	"Area_Name", 
+	"Reporting_District",
+	"Crime_Code", 
+	"Crime_Code_Description",
+	"MO_Codes",  
+	"Premise_Code",
+	"Premise_Description",
+	"Address",
+	"Cross_Street",
+	"Location",
+	"Latitude", 
+	"Longitude"
+FROM weather
+INNER JOIN crashes ON
+"Date_Occurred" = "Weather_Date";
+
